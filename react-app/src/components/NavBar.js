@@ -20,7 +20,7 @@ const NavBar = (props) => {
       return clientPrincipal;
     } catch (error) {
       console.error('No profile could be found');
-      return undefined;
+      return undefined; 
     }
   }
 
